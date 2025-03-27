@@ -1,0 +1,37 @@
+{
+  "name": "taller-2-aca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cam-vasquez/taller-2-aca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cam-vasquez/taller-2-aca/issues"
+  },
+  "homepage": "https://github.com/cam-vasquez/taller-2-aca#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji-conventional",
+      "useGitmojis": true
+
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "commitizen": "^4.3.1",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-emoji-conventional": "^1.2.1",
+    "husky": "^9.1.7"
+  }
+}
